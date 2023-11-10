@@ -152,18 +152,15 @@ h2 {
 
 @media (min-width:900px) and (max-width:1900px){
     .pokemon-info-img {
-        width: 550px;
-        top: 0%;
-        left: 33%;
+        width: 600px;
+        top: 11%;
+        left: 23%;
     }
     .pokemon-info {
         font-size: 30px;
         font-weight: bolder;
         text-shadow: 2px 2px 4px black;
-        left: 46.5%;
-        top: 36%;
-    }
-    .container {
-        left: 47%;
+        left: 52%;
+        top: 44%;
     }
 }
