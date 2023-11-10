@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="pokemon-info-img" id="pokemon-info-img"></div>
+        <div class="pokemon-info" id="pokemon-info"></div>
+        <div class="img"></div>
+    <div class="container">
+        <select id="pokemon-list">
+            <option value="">Select a Pokémon</option>
+            <!-- Options will be populated dynamically -->
+        </select>
+        <button onclick="fetchSelectedPokemon()">Get Info</button>
+    </div>
+</main>
+    <footer></footer>
+</body>
+</html>
