@@ -153,7 +153,7 @@ h2 {
 @media (min-width:900px) and (max-width:1900px){
     .pokemon-info-img {
         width: 550px;
-        top: 10%;
+        top: 25%;
         left: 33%;
     }
     .pokemon-info {
